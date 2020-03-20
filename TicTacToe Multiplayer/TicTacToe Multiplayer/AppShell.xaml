@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       xmlns:view="clr-namespace:TicTacToe_Multiplayer.View"
+       mc:Ignorable="d"
+       Title="TicTacToe_Multiplayer" Shell.NavBarIsVisible="False"
+       x:Class="TicTacToe_Multiplayer.AppShell" FlyoutBehavior="Disabled">
+    <Shell.Resources>
+    </Shell.Resources>
+    <ShellContent ContentTemplate="{DataTemplate view:StartPageView}"/>
+</Shell>
