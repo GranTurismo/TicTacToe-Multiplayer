@@ -32,7 +32,7 @@ namespace TicTacToe_Multiplayer.View
         public async void JoinCallback(string id)
         {
             _relevantGroupId = id;
-            await DisplayAlert("Connected", $"You Joined Group {_relevantGroupId}"ნწ , "OK");
+            await DisplayAlert("Connected", $"You Joined Group {_relevantGroupId}" , "OK");
         }
     }
 }
